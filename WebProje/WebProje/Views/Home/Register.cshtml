@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model WebProje.Models.tblMember
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="widget-item">
+                    <div class="request-information">
+                        <h4 class="widget-title">@WebProje.Resources.lang.UyeOl</h4><hr/>
+                        <div class="request-info clearfix">
+                            @using (Html.BeginForm("Register", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                <div class="full-row">
+                                    <label for="cat2">@WebProje.Resources.lang.Foto:</label>
+                                    <div class="input-select">
+                                        <input type="file" name="file" class="form-control" />
+                                    </div>
+                                    </div>
+                                    <div class="full-row">
+                                        <label for="cat2">@WebProje.Resources.lang.Ad:</label>
+                                        <div class="input-select">
+                                            @Html.TextBoxFor(m => m.MemberName, new { @class = "form-control", placeholder = @WebProje.Resources.lang.AdGiriniz, required = "required" })
+                                        </div>
+                                    </div>
+                                    <div class="full-row">
+                                        <label for="yourname">@WebProje.Resources.lang.Eposta:</label>
+                                        @Html.TextBoxFor(m => m.MemberEmail, new { @class = "form-control", placeholder = @WebProje.Resources.lang.EpostaGiriniz, required = "required" })
+                                    </div>
+                                    <div class="full-row">
+                                        <label for="email-id">@WebProje.Resources.lang.DogumTarihi:</label>
+                                        @Html.TextBoxFor(m => m.MemberDOB, new { @class = "form-control datepicker", style = "width:250px;", placeholder = @WebProje.Resources.lang.DogumTarihiGiriniz, required = "required" })
+
+                                    </div>
+                                    <div class="full-row">
+                                        <label for="email-id">@WebProje.Resources.lang.Sifre</label>
+                                        @Html.PasswordFor(m => m.MemberPassword, new { @class = "form-control", placeholder = @WebProje.Resources.lang.SifreGiriniz, required = "required" })
+                                    </div>
+                                    <div class="full-row">
+                                        <div class="submit_field">
+                                            <input class="mainBtn pull-right" type="submit" value=@WebProje.Resources.lang.UyeOl>
+                                        </div>
+                                    </div>
+                                    }
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#MemberDOB").datepicker({ dateFormat: 'YYYY' });
+        $("#MemberDOB").datepicker('setDate', new Date());
+    });
+</script>
+
+

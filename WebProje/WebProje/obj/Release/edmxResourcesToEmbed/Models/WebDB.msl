@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FilmBilgileriModelStoreContainer" CdmEntityContainer="FilmBilgileriEntities1">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCast">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblCast">
+        <MappingFragment StoreEntitySet="tblCast">
+          <ScalarProperty Name="CastID" ColumnName="CastID" />
+          <ScalarProperty Name="Cast_MovieID" ColumnName="Cast_MovieID" />
+          <ScalarProperty Name="Cast_PeopleID" ColumnName="Cast_PeopleID" />
+          <ScalarProperty Name="Cast_RoleID" ColumnName="Cast_RoleID" />
+          <ScalarProperty Name="CastCharacterName" ColumnName="CastCharacterName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblComment">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblComment">
+        <MappingFragment StoreEntitySet="tblComment">
+          <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+          <ScalarProperty Name="Comment_MemberID" ColumnName="Comment_MemberID" />
+          <ScalarProperty Name="Comment_MovieID" ColumnName="Comment_MovieID" />
+          <ScalarProperty Name="CommentTitle" ColumnName="CommentTitle" />
+          <ScalarProperty Name="CommentContent" ColumnName="CommentContent" />
+          <ScalarProperty Name="CommentUpCount" ColumnName="CommentUpCount" />
+          <ScalarProperty Name="CommentDownCount" ColumnName="CommentDownCount" />
+          <ScalarProperty Name="CommentDate" ColumnName="CommentDate" />
+          <ScalarProperty Name="CommentIsApproved" ColumnName="CommentIsApproved" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCountry">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblCountry">
+        <MappingFragment StoreEntitySet="tblCountry">
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLanguage">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblLanguage">
+        <MappingFragment StoreEntitySet="tblLanguage">
+          <ScalarProperty Name="LanguageID" ColumnName="LanguageID" />
+          <ScalarProperty Name="LanguageName" ColumnName="LanguageName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMember">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMember">
+        <MappingFragment StoreEntitySet="tblMember">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="MemberEmail" ColumnName="MemberEmail" />
+          <ScalarProperty Name="MemberPassword" ColumnName="MemberPassword" />
+          <ScalarProperty Name="MemberDOB" ColumnName="MemberDOB" />
+          <ScalarProperty Name="MemberGroupID" ColumnName="MemberGroupID" />
+          <ScalarProperty Name="MemberReputationID" ColumnName="MemberReputationID" />
+          <ScalarProperty Name="MemberRegisterDate" ColumnName="MemberRegisterDate" />
+          <ScalarProperty Name="MemberPhoto" ColumnName="MemberPhoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMemberGroup">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMemberGroup">
+        <MappingFragment StoreEntitySet="tblMemberGroup">
+          <ScalarProperty Name="MemberGroupID" ColumnName="MemberGroupID" />
+          <ScalarProperty Name="MemberTypeName" ColumnName="MemberTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMemberReputation">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMemberReputation">
+        <MappingFragment StoreEntitySet="tblMemberReputation">
+          <ScalarProperty Name="MemberReputationID" ColumnName="MemberReputationID" />
+          <ScalarProperty Name="MemberLevelName" ColumnName="MemberLevelName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMovie">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMovie">
+        <MappingFragment StoreEntitySet="tblMovie">
+          <ScalarProperty Name="MovieID" ColumnName="MovieID" />
+          <ScalarProperty Name="MovieName" ColumnName="MovieName" />
+          <ScalarProperty Name="MovieReleaseDate" ColumnName="MovieReleaseDate" />
+          <ScalarProperty Name="MovieSynopsis" ColumnName="MovieSynopsis" />
+          <ScalarProperty Name="MovieRunTimeMinutes" ColumnName="MovieRunTimeMinutes" />
+          <ScalarProperty Name="MovieBoxOfficeDollars" ColumnName="MovieBoxOfficeDollars" />
+          <ScalarProperty Name="MovieRatingIMDB" ColumnName="MovieRatingIMDB" />
+          <ScalarProperty Name="MoviePhoto" ColumnName="MoviePhoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMovieFavList">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMovieFavList">
+        <MappingFragment StoreEntitySet="tblMovieFavList">
+          <ScalarProperty Name="MovieFavList_MovieID" ColumnName="MovieFavList_MovieID" />
+          <ScalarProperty Name="MovieFavList_MemberID" ColumnName="MovieFavList_MemberID" />
+          <ScalarProperty Name="MovieFavListName" ColumnName="MovieFavListName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMovieRating">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMovieRating">
+        <MappingFragment StoreEntitySet="tblMovieRating">
+          <ScalarProperty Name="MovieRating_MovieID" ColumnName="MovieRating_MovieID" />
+          <ScalarProperty Name="MovieRating_MemberID" ColumnName="MovieRating_MemberID" />
+          <ScalarProperty Name="MovieRatingByMember" ColumnName="MovieRatingByMember" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMovieType">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblMovieType">
+        <MappingFragment StoreEntitySet="tblMovieType">
+          <ScalarProperty Name="MovieType_MovieID" ColumnName="MovieType_MovieID" />
+          <ScalarProperty Name="MovieType_TypeID" ColumnName="MovieType_TypeID" />
+          <ScalarProperty Name="MovieType_Name" ColumnName="MovieType_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPeople">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblPeople">
+        <MappingFragment StoreEntitySet="tblPeople">
+          <ScalarProperty Name="PeopleID" ColumnName="PeopleID" />
+          <ScalarProperty Name="PeopleName" ColumnName="PeopleName" />
+          <ScalarProperty Name="PeopleDOB" ColumnName="PeopleDOB" />
+          <ScalarProperty Name="PeoplePhoto" ColumnName="PeoplePhoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPeopleFavList">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblPeopleFavList">
+        <MappingFragment StoreEntitySet="tblPeopleFavList">
+          <ScalarProperty Name="PeopleFavList_PeopleID" ColumnName="PeopleFavList_PeopleID" />
+          <ScalarProperty Name="PeopleFavList_MemberID" ColumnName="PeopleFavList_MemberID" />
+          <ScalarProperty Name="PeopleFavListName" ColumnName="PeopleFavListName" />
+          <ScalarProperty Name="PeopleFavListIsPublic" ColumnName="PeopleFavListIsPublic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRoles">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblRoles">
+        <MappingFragment StoreEntitySet="tblRoles">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSlider">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblSlider">
+        <MappingFragment StoreEntitySet="tblSlider">
+          <ScalarProperty Name="SliderID" ColumnName="SliderID" />
+          <ScalarProperty Name="SliderPhoto" ColumnName="SliderPhoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblType">
+      <EntityTypeMapping TypeName="FilmBilgileriModel.tblType">
+        <MappingFragment StoreEntitySet="tblType">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="tblMovieCountry" TypeName="FilmBilgileriModel.tblMovieCountry" StoreEntitySet="tblMovieCountry">
+      <EndProperty Name="tblCountry">
+        <ScalarProperty Name="CountryID" ColumnName="MovieCountry_CountryID" />
+      </EndProperty>
+      <EndProperty Name="tblMovie">
+        <ScalarProperty Name="MovieID" ColumnName="MovieCountry_MovieID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblMovieLanguage" TypeName="FilmBilgileriModel.tblMovieLanguage" StoreEntitySet="tblMovieLanguage">
+      <EndProperty Name="tblLanguage">
+        <ScalarProperty Name="LanguageID" ColumnName="MovieLanguage_LanguageID" />
+      </EndProperty>
+      <EndProperty Name="tblMovie">
+        <ScalarProperty Name="MovieID" ColumnName="MovieLanguage_MovieID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

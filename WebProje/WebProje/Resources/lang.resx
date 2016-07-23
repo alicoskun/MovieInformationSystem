@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ad" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="AdGiriniz" xml:space="preserve">
+    <value>Kullanıcı adınızı giriniz</value>
+  </data>
+  <data name="Aksiyon" xml:space="preserve">
+    <value>Aksiyon</value>
+  </data>
+  <data name="Anasayfa" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="AnaSponsorlar" xml:space="preserve">
+    <value>Ana Sponsorlar</value>
+  </data>
+  <data name="Ara" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="Belgesel" xml:space="preserve">
+    <value>Belgesel</value>
+  </data>
+  <data name="Bilgi" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="BilimKurgu" xml:space="preserve">
+    <value>Bilim-Kurgu</value>
+  </data>
+  <data name="Biyografi" xml:space="preserve">
+    <value>Biyografi</value>
+  </data>
+  <data name="DogumTarihi" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+  </data>
+  <data name="DogumTarihiGiriniz" xml:space="preserve">
+    <value>Doğum tarihinizi giriniz</value>
+  </data>
+  <data name="Dram" xml:space="preserve">
+    <value>Dram</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-Posta</value>
+  </data>
+  <data name="Eposta" xml:space="preserve">
+    <value>E-Posta</value>
+  </data>
+  <data name="EpostaGiriniz" xml:space="preserve">
+    <value>E-postanızı giriniz</value>
+  </data>
+  <data name="ErisimYetkisiYokMesaj" xml:space="preserve">
+    <value>Bu alana erişim yetkiniz bulunmamaktadır !</value>
+  </data>
+  <data name="FavoriEkle" xml:space="preserve">
+    <value>Favorilere Ekle</value>
+  </data>
+  <data name="FavoriEklendiMesaj" xml:space="preserve">
+    <value>Film favorilerinize başarıyla eklendi !..</value>
+  </data>
+  <data name="FavoriFimlerim" xml:space="preserve">
+    <value>Favori Fimlerim</value>
+  </data>
+  <data name="Favorilerim" xml:space="preserve">
+    <value>Favorilerim</value>
+  </data>
+  <data name="FavoriZatenEkliMesaj" xml:space="preserve">
+    <value>Bu film zaten favorileriniz arasında !</value>
+  </data>
+  <data name="FilmDetay" xml:space="preserve">
+    <value>Film Detayları</value>
+  </data>
+  <data name="Filmistek" xml:space="preserve">
+    <value>Film İstek</value>
+  </data>
+  <data name="Filmler" xml:space="preserve">
+    <value>Filmler</value>
+  </data>
+  <data name="FilmSilindiMesaj" xml:space="preserve">
+    <value>Film silme işlemi başarılı.</value>
+    <comment>i</comment>
+  </data>
+  <data name="FilmTurleri" xml:space="preserve">
+    <value>Film Türleri</value>
+  </data>
+  <data name="Foto" xml:space="preserve">
+    <value>Fotoğraf</value>
+  </data>
+  <data name="GelismisArama" xml:space="preserve">
+    <value>Gelişmiş Arama</value>
+  </data>
+  <data name="Gerilim" xml:space="preserve">
+    <value>Gerilim</value>
+  </data>
+  <data name="Giris" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="GitFilm" xml:space="preserve">
+    <value>Filme Git</value>
+  </data>
+  <data name="GitGeri" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="Hakkimizda" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="Hasilat" xml:space="preserve">
+    <value>Hasılat</value>
+  </data>
+  <data name="Hesabim" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="Komedi" xml:space="preserve">
+    <value>Komedi</value>
+  </data>
+  <data name="Korku" xml:space="preserve">
+    <value>Korku</value>
+  </data>
+  <data name="Macera" xml:space="preserve">
+    <value>Macera</value>
+  </data>
+  <data name="Muzikal" xml:space="preserve">
+    <value>Müzikal</value>
+  </data>
+  <data name="Ozet" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="Parola" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Romantik" xml:space="preserve">
+    <value>Romantik</value>
+  </data>
+  <data name="Savas" xml:space="preserve">
+    <value>Savaş</value>
+  </data>
+  <data name="Sifre" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="SifreGiriniz" xml:space="preserve">
+    <value>Şifrenizi giriniz</value>
+  </data>
+  <data name="Sil" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="SiteKullanimi" xml:space="preserve">
+    <value>Site Kullanımı</value>
+  </data>
+  <data name="Suc" xml:space="preserve">
+    <value>Suç</value>
+  </data>
+  <data name="Sure" xml:space="preserve">
+    <value>Süre</value>
+  </data>
+  <data name="TakipEdin" xml:space="preserve">
+    <value>Bizi Takip Edin!</value>
+  </data>
+  <data name="Telif" xml:space="preserve">
+    <value>Tüm hakları saklıdır.</value>
+  </data>
+  <data name="TureGoreFimler" xml:space="preserve">
+    <value>Türe Göre Fimler</value>
+  </data>
+  <data name="UyeGiris" xml:space="preserve">
+    <value>Üye Giriş</value>
+  </data>
+  <data name="UyelikTamamMesaj" xml:space="preserve">
+    <value>Üyeliğiniz başarıyla tamamlandı !</value>
+  </data>
+  <data name="UyeOl" xml:space="preserve">
+    <value>Üye Ol</value>
+  </data>
+  <data name="YapimYil" xml:space="preserve">
+    <value>Yapım Yılı</value>
+  </data>
+  <data name="Yorumlarim" xml:space="preserve">
+    <value>Yorumlarım</value>
+  </data>
+  <data name="İletisim" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+</root>

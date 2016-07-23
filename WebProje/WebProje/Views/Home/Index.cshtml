@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model WebProje.Controllers.MyModels
+
+
+<div class="header_bottom">
+    <div class="header_bottom_left">
+        <div class="categories">
+            <h3>@WebProje.Resources.lang.FilmTurleri</h3>
+            <ul>
+                @foreach (var item in Model.types)
+                {                    
+                      <li><a href="/Home/TureGoreFilmler?TypeID=@item.TypeID">@item.TypeName</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+    
+        <!------ Slider ------------>
+        <div class="slider">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    @foreach (var item in Model.slides)
+                    {
+                        if (item.SliderPhoto == null)
+                        {
+                            <a href="#"><img style='width:100%;max-width:118px;max-height:152px; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" /></a>
+                        }
+                        else
+                        {
+                            <a href="#"><img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(item.SliderPhoto)" /></a>
+                        }
+                    }
+            </div>
+        </div>
+        <!------End Slider ------------>
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<div class="main">
+    <div class="wrap">
+        <div class="content">
+            
+            <div class="heading">
+                <h3>@WebProje.Resources.lang.Filmler</h3>
+            </div>
+            <div class="section group">
+               
+                    @foreach (var item in Model.movies)
+                    {
+                        <div class="grid_1_of_5">
+                            @if (item.MoviePhoto == null)
+                            {
+                            <a href="/Home/FilmDetay?ID=@item.MovieID"><img style='width:100%;max-width:118px;max-height:152px; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" /></a>
+
+                            }
+                            else
+                            {
+                            <a href="/Home/FilmDetay?ID=@item.MovieID"><img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(item.MoviePhoto)" /></a>
+
+                            }
+                            <h2><a href="/Home/FilmDetay?ID=@item.MovieID">@item.MovieName</a></h2>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="imdbPuan">@item.MovieRatingIMDB</span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <h4><a href="/Home/FilmDetay?ID=@item.MovieID">@WebProje.Resources.lang.GitFilm</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    }
+            </div>
+        </div>
+    </div>
+</div>

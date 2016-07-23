@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Cast";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<WebProje.Models.tblPeople>  
+
+<div class="panel panel-gray">
+    <div class="panel-heading">
+        <div class="col-md-12">
+            <h4>Cast</h4>
+            <a href="javascript:;" data-toggle="tooltip modal" data-width="4" data-source="/Admin/CastEkle" data-title="Yeni Kişi" data-function="CloseModal" class="btn btn-success btn-sm tooltips pull-right" style="margin-top:6px;" title="Yeni Kişi"><i class="fa fa-plus">&nbsp;&nbsp; Yeni Kişi</i></a>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="col-md-1">Fotoğraf</th>
+                            <th class="col-md-4">Ad Soyad</th>
+                            <th class="col-md-4">Doğum Tarihi</th>
+                            <th class="col-md-3">İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                @if (item.PeoplePhoto == null)
+                                {
+                                    <td><img style='width:100%; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" /></td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        <img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(item.PeoplePhoto)" />
+                                    </td>
+                                }
+
+                                <td>@item.PeopleName</td>
+                                <td>@String.Format("{0:d}", @item.PeopleDOB)</td>
+                                <td>
+                                    <a href='javascript:;' data-toggle='tooltip modal' data-source="/Admin/CastDuzenle?CastID=@item.PeopleID" data-title='Cast Düzenle' data-function='CloseModal' data-width='4' class='btn btn-xs btn-info tooltips' title='Düzenle'>Düzenle</a>
+                                    <a href="/Admin/CastSil?CastID=@item.PeopleID" class='btn btn-xs btn-danger tooltips' title='Sil'>Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

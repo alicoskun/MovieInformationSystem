@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Uye";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<WebProje.Models.tblMember>
+
+<div class="panel panel-gray">
+    <div class="panel-heading">
+        <div class="col-md-12">
+            <h4>Cast</h4>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="col-md-1">Avatar</th>
+                            <th class="col-md-2">Ad Soyad</th>
+                            <th class="col-md-2">E-Posta</th>
+                            <th class="col-md-1">Doğum Tarihi</th>
+                            <th class="col-md-1">Kayıt Tarihi</th>
+                            <th class="col-md-1">Grup</th>
+                            <th class="col-md-1">İtibar</th>
+                            <th class="col-md-2">İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                @if (item.MemberPhoto == null)
+                                {
+                                    <td><img style='width:100%; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" /></td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        <img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(item.MemberPhoto)" />
+                                    </td>
+                                }
+
+                                <td>@item.MemberName</td>
+                                <td>@item.MemberEmail</td>
+                                <td>@String.Format("{0:d}", @item.MemberDOB)</td>
+                                <td>@String.Format("{0:d}", @item.MemberRegisterDate)</td>
+                                <td>@item.tblMemberGroup.MemberTypeName</td>
+                                <td>@item.tblMemberReputation.MemberLevelName</td>
+                                <td>
+                                    <a href='javascript:;' data-toggle='tooltip modal' data-source="/Admin/UyeDuzenle?MemberID=@item.MemberID" data-title='Üye Düzenle' data-function='CloseModal' data-width='4' class='btn btn-xs btn-info tooltips' title='Düzenle'>Düzenle</a>
+                                    <a href="/Admin/UyeSil?MemberID=@item.MemberID" class='btn btn-xs btn-danger tooltips' title='Sil'>Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

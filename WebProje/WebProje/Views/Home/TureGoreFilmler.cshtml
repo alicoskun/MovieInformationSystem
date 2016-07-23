@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = @WebProje.Resources.lang.TureGoreFimler;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<WebProje.Models.tblMovie> 
+
+<div class="heading2">
+    <h3>@ViewBag.FilmTur.TypeName</h3>
+</div>
+<div class="section group">
+
+    @foreach (var item in Model)
+    {
+        <div class="grid_1_of_5">
+            @if (item.MoviePhoto == null)
+            {
+                <a href="/Home/FilmDetay?ID=@item.MovieID"><img style='width:100%;max-width:118px;max-height:152px; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" /></a>
+
+            }
+            else
+            {
+                <a href="/Home/FilmDetay?ID=@item.MovieID"><img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(item.MoviePhoto)" /></a>
+
+            }
+            <h2><a href="/Home/FilmDetay?ID=@item.MovieID">@item.MovieName</a></h2>
+            <div class="price-details">
+                <div class="price-number">
+                    <p><span class="imdbPuan">@item.MovieRatingIMDB</span></p>
+                </div>
+                <div class="add-cart">
+                    <h4><a href="/Home/FilmDetay?ID=@item.MovieID"> @WebProje.Resources.lang.GitFilm</a></h4>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+

@@ -1,0 +1,459 @@
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\WebProje.dll.config
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\WebProje.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\WebProje.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\EntityFramework.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Helpers.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Mvc.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Optimization.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Razor.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.WebPages.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\WebGrease.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Helpers.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Mvc.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Optimization.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.Razor.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.WebPages.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\EntityFramework.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\obj\Release\WebProje.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje\WebProje\obj\Release\WebProje.pdb
+C:\Users\ali\documents\visual studio 2013\Projects\WebProje\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\WebProje.dll.config
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\WebProje.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\WebProje.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\EntityFramework.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Helpers.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Mvc.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Optimization.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Razor.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.WebPages.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\WebGrease.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\EntityFramework.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Helpers.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Mvc.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Razor.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.WebPages.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\System.Web.Optimization.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\obj\Release\WebProje.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya\WebProje\obj\Release\WebProje.pdb
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\WebProje.dll.config
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\WebProje.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\WebProje.pdb
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\EntityFramework.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Owin.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Helpers.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Mvc.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Optimization.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Razor.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.WebPages.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\WebGrease.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\EntityFramework.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Helpers.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Mvc.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Razor.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.WebPages.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\System.Web.Optimization.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\obj\Release\WebProje.dll
+C:\Users\Ak1n\Desktop\WebProje - Kopya\WebProje\obj\Release\WebProje.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\obj\Release\WebProje.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\obj\Release\WebProje.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\WebProje.dll.config
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\WebProje.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\WebProje.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\EntityFramework.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Owin.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Razor.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\WebGrease.dll
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\EntityFramework.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Razor.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ali\Documents\Visual Studio 2013\Projects\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.dll.config
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.pdb
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Owin.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Razor.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebGrease.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Razor.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.pdb
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\en\WebProje.resources.dll
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.resources
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.en.resources
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.csproj.GenerateResource.Cache
+C:\Users\Ak1n\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\en\WebProje.resources.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.dll.config
+G:\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.pdb
+G:\Web Son\WebProje - Kopya2\WebProje\bin\en\WebProje.resources.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Web.Infrastructure.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Owin.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Razor.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\WebGrease.dll
+G:\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Razor.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.pdb
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.resources
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.en.resources
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.csproj.GenerateResource.Cache
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\en\WebProje.resources.dll
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.dll
+G:\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.pdb
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.dll.config
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebProje.pdb
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\en\WebProje.resources.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Owin.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Razor.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\WebGrease.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Razor.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.resources
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.en.resources
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.csproj.GenerateResource.Cache
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\en\WebProje.resources.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.dll
+C:\Users\ali\Desktop\Web Son\WebProje - Kopya2\WebProje\obj\Release\WebProje.pdb
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\WebProje.dll.config
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\WebProje.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\WebProje.pdb
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\en\WebProje.resources.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\EntityFramework.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Owin.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Razor.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\WebGrease.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\EntityFramework.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\EntityFramework.SqlServer.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Helpers.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Mvc.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Razor.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\System.Web.Optimization.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Antlr3.Runtime.pdb
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Newtonsoft.Json.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\WebProje.csprojResolveAssemblyReference.cache
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.resources
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\WebProje.Resources.lang.en.resources
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\WebProje.csproj.GenerateResource.Cache
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\en\WebProje.resources.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\WebProje.dll
+C:\Users\ali\Desktop\2015\Web Proje\WebProje - Kopya2\WebProje\obj\Release\WebProje.pdb

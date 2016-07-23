@@ -1,0 +1,107 @@
+﻿@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+        ViewBag.Title = "FilmDetay";
+    }
+    @model WebProje.Models.tblMovie
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="~/Content/style.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="~/Scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="~/Scripts/move-top.js"></script>
+<script type="text/javascript" src="~/Scripts/easing.js"></script>
+
+
+<script type="text/javascript">
+    function DropDown(el) {
+        this.dd = el;
+        this.initEvents();
+    }
+    DropDown.prototype = {
+        initEvents: function () {
+            var obj = this;
+
+            obj.dd.on('click', function (event) {
+                $(this).toggleClass('active');
+                event.stopPropagation();
+            });
+        }
+    }
+
+    $(function () {
+
+        var dd = new DropDown($('#dd'));
+
+        $(document).click(function () {
+            // all dropdowns
+            $('.wrapper-dropdown-2').removeClass('active');
+        });
+
+    });
+</script>
+
+@using (Html.BeginForm("FilmDetay", "Home", FormMethod.Post, new { @class = "form-horizontal", enctype = "multipart/form-data" }))
+            {
+    @Html.HiddenFor(m => m.MovieID)
+
+
+<div class="main">
+    <div class="wrap">
+        <div class="content_top">
+            <div class="back-links">
+                <p><a class="back-links" href="index.html">&#60;&#60;@WebProje.Resources.lang.GitGeri</a>     <b>|</b>     <a href="#" class="active">@WebProje.Resources.lang.FilmDetay</a></p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="section group">
+            <div class="cont-desc span_1_of_2">
+                <div class="product-details">
+                    <div class="grid images_3_of_2">
+                        <div class="col-sm-10">
+                                @if (Model.MoviePhoto == null)
+                                {
+                                    <img style='width:100%; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" />
+                                }
+                                else
+                                {
+                                    <img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(Model.MoviePhoto)" alt="" />
+                                }
+                        </div>
+                    </div>
+                    <div class="desc span_3_of_2">
+                        <h2>@Model.MovieName</h2>
+                        <p>@Model.MovieSynopsis</p>
+                        <div class="price">
+                            <p>>@WebProje.Resources.lang.YapimYil: <span>@Model.MovieReleaseDate</span></p>
+                        </div>
+                        <div class="available">
+                            <ul>
+                                <li><span>@WebProje.Resources.lang.Sure:</span> @Model.MovieRunTimeMinutes</li>
+                                <li><span>IMDB:</span> @Model.MovieRatingIMDB</li>
+                                <li><span>@WebProje.Resources.lang.Hasilat:</span>&nbsp; @Model.MovieBoxOfficeDollars</li>
+                            </ul>
+                            <hr/>
+                        </div>
+                        <div class="share-desc">
+                            <div class="button"><span><a href="/Home/FavoriFilmEkle?MovieID=@Model.MovieID">@WebProje.Resources.lang.FavoriEkle</a></span></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="product_desc">
+                    <h2>@WebProje.Resources.lang.Ozet:</h2>
+                    <p>@Model.MovieSynopsis</p>
+                </div>
+            </div>
+         
+        </div>
+       
+    </div>
+    </div> }
+<script type="text/javascript">
+    $(document).ready(function () {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+</script>

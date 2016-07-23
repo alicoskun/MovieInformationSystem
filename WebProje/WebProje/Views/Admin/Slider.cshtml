@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Slider";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@model List<WebProje.Models.tblSlider>
+
+<div class="panel panel-gray">
+    <div class="panel-heading">
+        <div class="col-md-12">
+            <h4>Slider</h4>
+            <a href="javascript:;" data-toggle="tooltip modal" data-width="4" data-source="/Admin/SlideEkle" data-title="Yeni Slide" data-function="CloseModal" class="btn btn-success btn-sm tooltips pull-right" style="margin-top:6px;" title="Yeni Slide"><i class="fa fa-plus">&nbsp;&nbsp; Yeni Slide</i></a>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="col-md-2">Fotoğraf</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                @if (item.SliderPhoto == null)
+                                {
+                                    <td><img style='width:100%; height:auto; border:solid 1px #cccccc;' src="~/assets/img/resimyok.png" alt="" /></td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        <img style='width:100%; height:auto; border:solid 1px #cccccc;' src="data:image/png;base64,@System.Convert.ToBase64String(item.SliderPhoto)" />
+                                    </td>
+                                }
+                                <td><a href='javascript:;' data-toggle='tooltip modal' data-source="/Admin/SlideDuzenle?SlideID=@item.SliderID" data-title='Slide Düzenle' data-function='CloseModal' data-width='4' class='btn btn-xs btn-info tooltips' title='Düzenle'>Düzenle</a>
+                                <a href="/Admin/SlideSil?SlideID=@item.SliderID" class='btn btn-xs btn-danger tooltips' title='Sil'>Sil</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

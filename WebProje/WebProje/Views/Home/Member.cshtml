@@ -1,0 +1,44 @@
+﻿@model WebProje.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "Üye Ol";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="widget-item">
+                    <div class="request-information">
+                        <h4 class="widget-title">@WebProje.Resources.lang.UyeGiris</h4>
+                        <div class="request-info clearfix">
+                            @using (Html.BeginForm("UyeGiris", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                <div class="full-row">
+                                    <label for="email-id">@WebProje.Resources.lang.Eposta:</label>
+                                    @Html.TextBoxFor(m => m.MemberEmail)
+                                </div>
+                                <div class="full-row">
+                                    <label for="email-id">@WebProje.Resources.lang.Sifre:</label>
+                                    @Html.PasswordFor(m => m.MemberPassword)
+                                </div>
+                                <div class="full-row">
+                                    <div class="submit_field">
+                                        <strong style="color:red; float:left; width:50%;">@TempData["Mesaj"]</strong>
+                                        <input class="mainBtn pull-right" type="submit" value=@WebProje.Resources.lang.Giris>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*@{
+        ViewBag.Title = "Member";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }*@
+

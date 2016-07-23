@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b0c780ae296e45a5864ad9fa93635a70" Name="Diagram1">
+        <EntityTypeShape EntityType="FilmBilgileriModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblCast" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblComment" Width="1.5" PointX="8.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblCountry" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblLanguage" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMember" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMemberGroup" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMemberReputation" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMovie" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMovieFavList" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMovieRating" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblMovieType" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblPeople" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblPeopleFavList" Width="1.5" PointX="8.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblRoles" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblSlider" Width="1.5" PointX="10.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmBilgileriModel.tblType" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblCast_tblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblCast_tblPeople" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblCast_tblRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblComment_tblMember" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblComment_tblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMember_tblMemberGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMember_tblMemberReputation" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMovieFavList_tblMember" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMovieRating_tblMember" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblPeopleFavList_tblMember" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMovieFavList_tblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMovieRating_tblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMovieType_tblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblMovieType_tblType" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.FK_tblPeopleFavList_tblPeople" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.tblMovieCountry" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmBilgileriModel.tblMovieLanguage" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

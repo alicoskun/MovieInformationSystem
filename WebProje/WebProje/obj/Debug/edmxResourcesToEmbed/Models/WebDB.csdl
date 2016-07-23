@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FilmBilgileriModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="MediaGalleryType">
+    <Key>
+      <PropertyRef Name="MediaGalleryTypeID" />
+    </Key>
+    <Property Name="MediaGalleryTypeID" Type="Int32" Nullable="false" />
+    <Property Name="MediaGalleryTypeName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblMediaGallery" Relationship="Self.FK_tblMediaGallery_MediaGalleryType" FromRole="MediaGalleryType" ToRole="tblMediaGallery" />
+  </EntityType>
+  <EntityType Name="tblCast">
+    <Key>
+      <PropertyRef Name="CastID" />
+    </Key>
+    <Property Name="CastID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cast_MovieID" Type="Int32" Nullable="false" />
+    <Property Name="Cast_PeopleID" Type="Int32" Nullable="false" />
+    <Property Name="Cast_RoleID" Type="Int32" Nullable="false" />
+    <Property Name="CastCharacterName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.FK_tblCast_tblMovie" FromRole="tblCast" ToRole="tblMovie" />
+    <NavigationProperty Name="tblPeople" Relationship="Self.FK_tblCast_tblPeople" FromRole="tblCast" ToRole="tblPeople" />
+    <NavigationProperty Name="tblRoles" Relationship="Self.FK_tblCast_tblRoles" FromRole="tblCast" ToRole="tblRoles" />
+  </EntityType>
+  <EntityType Name="tblComment">
+    <Key>
+      <PropertyRef Name="CommentID" />
+    </Key>
+    <Property Name="CommentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Comment_MemberID" Type="Guid" Nullable="false" />
+    <Property Name="Comment_MovieID" Type="Int32" Nullable="false" />
+    <Property Name="CommentTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CommentContent" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CommentUpCount" Type="Int32" Nullable="false" />
+    <Property Name="CommentDownCount" Type="Int32" Nullable="false" />
+    <Property Name="CommentDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CommentIsApproved" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblComment_tblMember" FromRole="tblComment" ToRole="tblMember" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.FK_tblComment_tblMovie" FromRole="tblComment" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblCountry">
+    <Key>
+      <PropertyRef Name="CountryID" />
+    </Key>
+    <Property Name="CountryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CountryName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.tblMovieCountry" FromRole="tblCountry" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblLanguage">
+    <Key>
+      <PropertyRef Name="LanguageID" />
+    </Key>
+    <Property Name="LanguageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LanguageName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.tblMovieLanguage" FromRole="tblLanguage" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblMediaGallery">
+    <Key>
+      <PropertyRef Name="MediaGalleryID" />
+    </Key>
+    <Property Name="MediaGalleryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MediaGalleryTypeID" Type="Int32" Nullable="false" />
+    <Property Name="MediaGallerySmallPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MediaGalleryLargePath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MediaGalleryVideoPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MediaGalleryTitle" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MediaGalleryDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MediaGalleryNoPhotoPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="MediaGalleryType" Relationship="Self.FK_tblMediaGallery_MediaGalleryType" FromRole="tblMediaGallery" ToRole="MediaGalleryType" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblMember_tblMediaGallery" FromRole="tblMediaGallery" ToRole="tblMember" />
+    <NavigationProperty Name="tblPeople" Relationship="Self.FK_tblPeople_tblMediaGallery" FromRole="tblMediaGallery" ToRole="tblPeople" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.tblMoviePoster" FromRole="tblMediaGallery" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblMember">
+    <Key>
+      <PropertyRef Name="MemberID" />
+    </Key>
+    <Property Name="MemberID" Type="Guid" Nullable="false" />
+    <Property Name="MemberName" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MemberEmail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MemberPassword" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MemberSeqQuestion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="MemberSeqAnswer" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Member_MediaGalleryID" Type="Int32" />
+    <Property Name="MemberGroupID" Type="Int32" Nullable="false" />
+    <Property Name="MemberReputationID" Type="Int32" Nullable="false" />
+    <Property Name="MemberIP" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="MemberRegisterDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MemberIsBanned" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblComment" Relationship="Self.FK_tblComment_tblMember" FromRole="tblMember" ToRole="tblComment" />
+    <NavigationProperty Name="tblMediaGallery" Relationship="Self.FK_tblMember_tblMediaGallery" FromRole="tblMember" ToRole="tblMediaGallery" />
+    <NavigationProperty Name="tblMemberReputation" Relationship="Self.FK_tblMember_tblMemberLevel" FromRole="tblMember" ToRole="tblMemberReputation" />
+    <NavigationProperty Name="tblMemberGroup" Relationship="Self.FK_tblMember_tblMemberType" FromRole="tblMember" ToRole="tblMemberGroup" />
+    <NavigationProperty Name="tblMovieFavList" Relationship="Self.FK_tblMovieFavList_tblMember" FromRole="tblMember" ToRole="tblMovieFavList" />
+    <NavigationProperty Name="tblMovieRating" Relationship="Self.FK_tblMovieRating_tblMember" FromRole="tblMember" ToRole="tblMovieRating" />
+    <NavigationProperty Name="tblPeopleFavList" Relationship="Self.FK_tblPeopleFavList_tblMember" FromRole="tblMember" ToRole="tblPeopleFavList" />
+  </EntityType>
+  <EntityType Name="tblMemberGroup">
+    <Key>
+      <PropertyRef Name="MemberGroupID" />
+    </Key>
+    <Property Name="MemberGroupID" Type="Int32" Nullable="false" />
+    <Property Name="MemberTypeName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblMember_tblMemberType" FromRole="tblMemberGroup" ToRole="tblMember" />
+  </EntityType>
+  <EntityType Name="tblMemberReputation">
+    <Key>
+      <PropertyRef Name="MemberReputationID" />
+    </Key>
+    <Property Name="MemberReputationID" Type="Int32" Nullable="false" />
+    <Property Name="MemberLevelName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblMember_tblMemberLevel" FromRole="tblMemberReputation" ToRole="tblMember" />
+  </EntityType>
+  <EntityType Name="tblMovie">
+    <Key>
+      <PropertyRef Name="MovieID" />
+    </Key>
+    <Property Name="MovieID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MovieReleaseDate" Type="DateTime" Precision="3" />
+    <Property Name="MovieSynopsis" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MovieRunTimeMinutes" Type="Int32" Nullable="false" />
+    <Property Name="MovieBoxOfficeDollars" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="tblCast" Relationship="Self.FK_tblCast_tblMovie" FromRole="tblMovie" ToRole="tblCast" />
+    <NavigationProperty Name="tblComment" Relationship="Self.FK_tblComment_tblMovie" FromRole="tblMovie" ToRole="tblComment" />
+    <NavigationProperty Name="tblMovieFavList" Relationship="Self.FK_tblMovieFavList_tblMovie" FromRole="tblMovie" ToRole="tblMovieFavList" />
+    <NavigationProperty Name="tblMovieRating" Relationship="Self.FK_tblMovieRating_tblMovie" FromRole="tblMovie" ToRole="tblMovieRating" />
+    <NavigationProperty Name="tblCountry" Relationship="Self.tblMovieCountry" FromRole="tblMovie" ToRole="tblCountry" />
+    <NavigationProperty Name="tblLanguage" Relationship="Self.tblMovieLanguage" FromRole="tblMovie" ToRole="tblLanguage" />
+    <NavigationProperty Name="tblMediaGallery" Relationship="Self.tblMoviePoster" FromRole="tblMovie" ToRole="tblMediaGallery" />
+    <NavigationProperty Name="tblTag" Relationship="Self.tblMovieTag" FromRole="tblMovie" ToRole="tblTag" />
+    <NavigationProperty Name="tblType" Relationship="Self.tblMovieType" FromRole="tblMovie" ToRole="tblType" />
+  </EntityType>
+  <EntityType Name="tblMovieFavList">
+    <Key>
+      <PropertyRef Name="MovieFavList_MovieID" />
+      <PropertyRef Name="MovieFavList_MemberID" />
+    </Key>
+    <Property Name="MovieFavList_MovieID" Type="Int32" Nullable="false" />
+    <Property Name="MovieFavList_MemberID" Type="Guid" Nullable="false" />
+    <Property Name="MovieFavListName" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MovieFavListIsPublic" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblMovieFavList_tblMember" FromRole="tblMovieFavList" ToRole="tblMember" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.FK_tblMovieFavList_tblMovie" FromRole="tblMovieFavList" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblMovieRating">
+    <Key>
+      <PropertyRef Name="MovieRating_MovieID" />
+      <PropertyRef Name="MovieRating_MemberID" />
+    </Key>
+    <Property Name="MovieRating_MovieID" Type="Int32" Nullable="false" />
+    <Property Name="MovieRating_MemberID" Type="Guid" Nullable="false" />
+    <Property Name="MovieRatingByMember" Type="Int32" Nullable="false" />
+    <Property Name="MovieRatingByIMDB" Type="Decimal" Precision="2" Scale="1" Nullable="false" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblMovieRating_tblMember" FromRole="tblMovieRating" ToRole="tblMember" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.FK_tblMovieRating_tblMovie" FromRole="tblMovieRating" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblPeople">
+    <Key>
+      <PropertyRef Name="PeopleID" />
+    </Key>
+    <Property Name="PeopleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PeopleName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PeopleDOB" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="People_MediaGalleryID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblCast" Relationship="Self.FK_tblCast_tblPeople" FromRole="tblPeople" ToRole="tblCast" />
+    <NavigationProperty Name="tblMediaGallery" Relationship="Self.FK_tblPeople_tblMediaGallery" FromRole="tblPeople" ToRole="tblMediaGallery" />
+    <NavigationProperty Name="tblPeopleFavList" Relationship="Self.FK_tblPeopleFavList_tblPeople" FromRole="tblPeople" ToRole="tblPeopleFavList" />
+  </EntityType>
+  <EntityType Name="tblPeopleFavList">
+    <Key>
+      <PropertyRef Name="PeopleFavList_PeopleID" />
+      <PropertyRef Name="PeopleFavList_MemberID" />
+    </Key>
+    <Property Name="PeopleFavList_PeopleID" Type="Int32" Nullable="false" />
+    <Property Name="PeopleFavList_MemberID" Type="Guid" Nullable="false" />
+    <Property Name="PeopleFavListName" Type="String" MaxLength="70" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PeopleFavListIsPublic" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblMember" Relationship="Self.FK_tblPeopleFavList_tblMember" FromRole="tblPeopleFavList" ToRole="tblMember" />
+    <NavigationProperty Name="tblPeople" Relationship="Self.FK_tblPeopleFavList_tblPeople" FromRole="tblPeopleFavList" ToRole="tblPeople" />
+  </EntityType>
+  <EntityType Name="tblRoles">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblCast" Relationship="Self.FK_tblCast_tblRoles" FromRole="tblRoles" ToRole="tblCast" />
+  </EntityType>
+  <EntityType Name="tblTag">
+    <Key>
+      <PropertyRef Name="TagID" />
+    </Key>
+    <Property Name="TagID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TagName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.tblMovieTag" FromRole="tblTag" ToRole="tblMovie" />
+  </EntityType>
+  <EntityType Name="tblType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblMovie" Relationship="Self.tblMovieType" FromRole="tblType" ToRole="tblMovie" />
+  </EntityType>
+  <Association Name="FK_tblMediaGallery_MediaGalleryType">
+    <End Role="MediaGalleryType" Type="Self.MediaGalleryType" Multiplicity="1" />
+    <End Role="tblMediaGallery" Type="Self.tblMediaGallery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MediaGalleryType">
+        <PropertyRef Name="MediaGalleryTypeID" />
+      </Principal>
+      <Dependent Role="tblMediaGallery">
+        <PropertyRef Name="MediaGalleryTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblCast_tblMovie">
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="1" />
+    <End Role="tblCast" Type="Self.tblCast" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMovie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="tblCast">
+        <PropertyRef Name="Cast_MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblCast_tblPeople">
+    <End Role="tblPeople" Type="Self.tblPeople" Multiplicity="1" />
+    <End Role="tblCast" Type="Self.tblCast" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPeople">
+        <PropertyRef Name="PeopleID" />
+      </Principal>
+      <Dependent Role="tblCast">
+        <PropertyRef Name="Cast_PeopleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblCast_tblRoles">
+    <End Role="tblRoles" Type="Self.tblRoles" Multiplicity="1" />
+    <End Role="tblCast" Type="Self.tblCast" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblRoles">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="tblCast">
+        <PropertyRef Name="Cast_RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblComment_tblMember">
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="1" />
+    <End Role="tblComment" Type="Self.tblComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMember">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="tblComment">
+        <PropertyRef Name="Comment_MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblComment_tblMovie">
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="1" />
+    <End Role="tblComment" Type="Self.tblComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMovie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="tblComment">
+        <PropertyRef Name="Comment_MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMember_tblMediaGallery">
+    <End Role="tblMediaGallery" Type="Self.tblMediaGallery" Multiplicity="0..1" />
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMediaGallery">
+        <PropertyRef Name="MediaGalleryID" />
+      </Principal>
+      <Dependent Role="tblMember">
+        <PropertyRef Name="Member_MediaGalleryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPeople_tblMediaGallery">
+    <End Role="tblMediaGallery" Type="Self.tblMediaGallery" Multiplicity="1" />
+    <End Role="tblPeople" Type="Self.tblPeople" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMediaGallery">
+        <PropertyRef Name="MediaGalleryID" />
+      </Principal>
+      <Dependent Role="tblPeople">
+        <PropertyRef Name="People_MediaGalleryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMember_tblMemberLevel">
+    <End Role="tblMemberReputation" Type="Self.tblMemberReputation" Multiplicity="1" />
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMemberReputation">
+        <PropertyRef Name="MemberReputationID" />
+      </Principal>
+      <Dependent Role="tblMember">
+        <PropertyRef Name="MemberReputationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMember_tblMemberType">
+    <End Role="tblMemberGroup" Type="Self.tblMemberGroup" Multiplicity="1" />
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMemberGroup">
+        <PropertyRef Name="MemberGroupID" />
+      </Principal>
+      <Dependent Role="tblMember">
+        <PropertyRef Name="MemberGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMovieFavList_tblMember">
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="1" />
+    <End Role="tblMovieFavList" Type="Self.tblMovieFavList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMember">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="tblMovieFavList">
+        <PropertyRef Name="MovieFavList_MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMovieRating_tblMember">
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="1" />
+    <End Role="tblMovieRating" Type="Self.tblMovieRating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMember">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="tblMovieRating">
+        <PropertyRef Name="MovieRating_MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPeopleFavList_tblMember">
+    <End Role="tblMember" Type="Self.tblMember" Multiplicity="1" />
+    <End Role="tblPeopleFavList" Type="Self.tblPeopleFavList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMember">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="tblPeopleFavList">
+        <PropertyRef Name="PeopleFavList_MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMovieFavList_tblMovie">
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="1" />
+    <End Role="tblMovieFavList" Type="Self.tblMovieFavList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMovie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="tblMovieFavList">
+        <PropertyRef Name="MovieFavList_MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMovieRating_tblMovie">
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="1" />
+    <End Role="tblMovieRating" Type="Self.tblMovieRating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMovie">
+        <PropertyRef Name="MovieID" />
+      </Principal>
+      <Dependent Role="tblMovieRating">
+        <PropertyRef Name="MovieRating_MovieID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPeopleFavList_tblPeople">
+    <End Role="tblPeople" Type="Self.tblPeople" Multiplicity="1" />
+    <End Role="tblPeopleFavList" Type="Self.tblPeopleFavList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPeople">
+        <PropertyRef Name="PeopleID" />
+      </Principal>
+      <Dependent Role="tblPeopleFavList">
+        <PropertyRef Name="PeopleFavList_PeopleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblMovieCountry">
+    <End Role="tblCountry" Type="Self.tblCountry" Multiplicity="*" />
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="*" />
+  </Association>
+  <Association Name="tblMovieLanguage">
+    <End Role="tblLanguage" Type="Self.tblLanguage" Multiplicity="*" />
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="*" />
+  </Association>
+  <Association Name="tblMoviePoster">
+    <End Role="tblMediaGallery" Type="Self.tblMediaGallery" Multiplicity="*" />
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="*" />
+  </Association>
+  <Association Name="tblMovieTag">
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="*" />
+    <End Role="tblTag" Type="Self.tblTag" Multiplicity="*" />
+  </Association>
+  <Association Name="tblMovieType">
+    <End Role="tblMovie" Type="Self.tblMovie" Multiplicity="*" />
+    <End Role="tblType" Type="Self.tblType" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="FilmBilgileriEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MediaGalleryType" EntityType="Self.MediaGalleryType" />
+    <EntitySet Name="tblCast" EntityType="Self.tblCast" />
+    <EntitySet Name="tblComment" EntityType="Self.tblComment" />
+    <EntitySet Name="tblCountry" EntityType="Self.tblCountry" />
+    <EntitySet Name="tblLanguage" EntityType="Self.tblLanguage" />
+    <EntitySet Name="tblMediaGallery" EntityType="Self.tblMediaGallery" />
+    <EntitySet Name="tblMember" EntityType="Self.tblMember" />
+    <EntitySet Name="tblMemberGroup" EntityType="Self.tblMemberGroup" />
+    <EntitySet Name="tblMemberReputation" EntityType="Self.tblMemberReputation" />
+    <EntitySet Name="tblMovie" EntityType="Self.tblMovie" />
+    <EntitySet Name="tblMovieFavList" EntityType="Self.tblMovieFavList" />
+    <EntitySet Name="tblMovieRating" EntityType="Self.tblMovieRating" />
+    <EntitySet Name="tblPeople" EntityType="Self.tblPeople" />
+    <EntitySet Name="tblPeopleFavList" EntityType="Self.tblPeopleFavList" />
+    <EntitySet Name="tblRoles" EntityType="Self.tblRoles" />
+    <EntitySet Name="tblTag" EntityType="Self.tblTag" />
+    <EntitySet Name="tblType" EntityType="Self.tblType" />
+    <AssociationSet Name="FK_tblMediaGallery_MediaGalleryType" Association="Self.FK_tblMediaGallery_MediaGalleryType">
+      <End Role="MediaGalleryType" EntitySet="MediaGalleryType" />
+      <End Role="tblMediaGallery" EntitySet="tblMediaGallery" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblCast_tblMovie" Association="Self.FK_tblCast_tblMovie">
+      <End Role="tblMovie" EntitySet="tblMovie" />
+      <End Role="tblCast" EntitySet="tblCast" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblCast_tblPeople" Association="Self.FK_tblCast_tblPeople">
+      <End Role="tblPeople" EntitySet="tblPeople" />
+      <End Role="tblCast" EntitySet="tblCast" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblCast_tblRoles" Association="Self.FK_tblCast_tblRoles">
+      <End Role="tblRoles" EntitySet="tblRoles" />
+      <End Role="tblCast" EntitySet="tblCast" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblComment_tblMember" Association="Self.FK_tblComment_tblMember">
+      <End Role="tblMember" EntitySet="tblMember" />
+      <End Role="tblComment" EntitySet="tblComment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblComment_tblMovie" Association="Self.FK_tblComment_tblMovie">
+      <End Role="tblMovie" EntitySet="tblMovie" />
+      <End Role="tblComment" EntitySet="tblComment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMember_tblMediaGallery" Association="Self.FK_tblMember_tblMediaGallery">
+      <End Role="tblMediaGallery" EntitySet="tblMediaGallery" />
+      <End Role="tblMember" EntitySet="tblMember" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPeople_tblMediaGallery" Association="Self.FK_tblPeople_tblMediaGallery">
+      <End Role="tblMediaGallery" EntitySet="tblMediaGallery" />
+      <End Role="tblPeople" EntitySet="tblPeople" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMember_tblMemberLevel" Association="Self.FK_tblMember_tblMemberLevel">
+      <End Role="tblMemberReputation" EntitySet="tblMemberReputation" />
+      <End Role="tblMember" EntitySet="tblMember" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMember_tblMemberType" Association="Self.FK_tblMember_tblMemberType">
+      <End Role="tblMemberGroup" EntitySet="tblMemberGroup" />
+      <End Role="tblMember" EntitySet="tblMember" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMovieFavList_tblMember" Association="Self.FK_tblMovieFavList_tblMember">
+      <End Role="tblMember" EntitySet="tblMember" />
+      <End Role="tblMovieFavList" EntitySet="tblMovieFavList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMovieRating_tblMember" Association="Self.FK_tblMovieRating_tblMember">
+      <End Role="tblMember" EntitySet="tblMember" />
+      <End Role="tblMovieRating" EntitySet="tblMovieRating" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPeopleFavList_tblMember" Association="Self.FK_tblPeopleFavList_tblMember">
+      <End Role="tblMember" EntitySet="tblMember" />
+      <End Role="tblPeopleFavList" EntitySet="tblPeopleFavList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMovieFavList_tblMovie" Association="Self.FK_tblMovieFavList_tblMovie">
+      <End Role="tblMovie" EntitySet="tblMovie" />
+      <End Role="tblMovieFavList" EntitySet="tblMovieFavList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMovieRating_tblMovie" Association="Self.FK_tblMovieRating_tblMovie">
+      <End Role="tblMovie" EntitySet="tblMovie" />
+      <End Role="tblMovieRating" EntitySet="tblMovieRating" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPeopleFavList_tblPeople" Association="Self.FK_tblPeopleFavList_tblPeople">
+      <End Role="tblPeople" EntitySet="tblPeople" />
+      <End Role="tblPeopleFavList" EntitySet="tblPeopleFavList" />
+    </AssociationSet>
+    <AssociationSet Name="tblMovieCountry" Association="Self.tblMovieCountry">
+      <End Role="tblCountry" EntitySet="tblCountry" />
+      <End Role="tblMovie" EntitySet="tblMovie" />
+    </AssociationSet>
+    <AssociationSet Name="tblMovieLanguage" Association="Self.tblMovieLanguage">
+      <End Role="tblLanguage" EntitySet="tblLanguage" />
+      <End Role="tblMovie" EntitySet="tblMovie" />
+    </AssociationSet>
+    <AssociationSet Name="tblMoviePoster" Association="Self.tblMoviePoster">
+      <End Role="tblMediaGallery" EntitySet="tblMediaGallery" />
+      <End Role="tblMovie" EntitySet="tblMovie" />
+    </AssociationSet>
+    <AssociationSet Name="tblMovieTag" Association="Self.tblMovieTag">
+      <End Role="tblMovie" EntitySet="tblMovie" />
+      <End Role="tblTag" EntitySet="tblTag" />
+    </AssociationSet>
+    <AssociationSet Name="tblMovieType" Association="Self.tblMovieType">
+      <End Role="tblMovie" EntitySet="tblMovie" />
+      <End Role="tblType" EntitySet="tblType" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

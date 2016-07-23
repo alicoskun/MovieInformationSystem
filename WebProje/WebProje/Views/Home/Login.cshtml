@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model WebProje.Models.tblMember
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="widget-item">
+                    <div class="request-information">
+                        <h4 class="widget-title"> @WebProje.Resources.lang.UyeGiris</h4><hr/>
+                        <div class="request-info clearfix">
+                            @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                <div class="full-row">
+                                    <label for="email-id">@WebProje.Resources.lang.Email:</label>
+                                    @Html.TextBoxFor(m => m.MemberEmail, new { @class = "form-control", placeholder = @WebProje.Resources.lang.Eposta, required = "required" })
+                                </div>
+                                <div class="full-row">
+                                    <label for="email-id">@WebProje.Resources.lang.Sifre:</label>
+                                    @Html.PasswordFor(m => m.MemberPassword, new { @class = "form-control", placeholder = @WebProje.Resources.lang.SifreGiriniz, required = "required" })
+                                </div>
+                                <div class="full-row">
+                                    <div class="submit_field">
+                                        <strong style="color:red; float:left; width:50%;">@TempData["Mesaj"]</strong>
+                                        <input class="mainBtn pull-right" type="submit" value=@WebProje.Resources.lang.Giris>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="full-row">
+                                    @Html.ActionLink(@WebProje.Resources.lang.UyeOl, "Register")
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
